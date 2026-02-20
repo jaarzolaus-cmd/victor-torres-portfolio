@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Torres | Banker - Corporate Banking</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: url('https://drive.google.com/uc?export=view&id=1FGQoB2Gu1zTGS5EeTCsOzMRgNCElAIvg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f5f5f5;
+}
+
+.overlay {
+    background: rgba(10, 25, 47, 0.50);
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    object-position: top;
+    border: 3px solid #d4af37;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.title {
+    color: #d4af37;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.icons {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.icon-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d4af37;
+    margin: 0 25px;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.icon-item span {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.icon-item:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.icons a {
+    color: #d4af37;
+    margin: 0 25px;
+    font-size: 1.8rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: white;
+    transform: scale(1.2);
+}
+
+.section {
+    margin: 50px 0;
+}
+
+.section h2 {
+    border-left: 4px solid #d4af37;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.about {
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.skill {
+    background: transparent;
+    border: 1px solid #d4af37;
+    padding: 8px 15px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #d4af37;
+    color: #0a192f;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        justify-content: center;
+    }
+    .icons a {
+        margin: 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="overlay">
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <img src="https://drive.google.com/thumbnail?id=1V0ndFsCOpha-iMTp8scVzC6WqZmgp9CY&sz=w1000"
+             alt="Victor Torres"
+             class="profile-img">
+
+        <h1>Victor Torres</h1>
+        <div class="title">BANKER - CORPORATE BANKING</div>
+        <div class="title">Bachelor in Economics - Master in Finance</div>
+    </div>
+
+    <!-- Icons -->
+    <!-- Action Buttons -->
+<div class="icons">
+
+    <a href="https://drive.google.com/file/d/1U9J1datzoc60BlLljTJO5hMONe1AxMJN/view?usp=drive_link" target="_blank" class="icon-item">
+        <i class="fas fa-file-download"></i>
+        <span>Download CV</span>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1hYGvExQsX7D04f_-rebYk6tznf0ERehw/view?usp=drive_link" class="icon-item">
+        <i class="fas fa-envelope"></i>
+        <span>Contact</span>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1PLEQ9iHBKlp0Ls3Rxt4mOJMm24QzXOCX/view?usp=drive_link" target="_blank" class="icon-item">
+        <i class="fas fa-chart-line"></i>
+        <span>Portfolio Performance</span>
+    </a>
+
+    <a href="https://drive.google.com/file/d/1CMa3skNaCiZayVb29ax5gfbshKlSsZ5b/view?usp=drive_link" target="_blank" class="icon-item">
+        <i class="fas fa-book"></i>
+        <span>Research Papers</span>
+    </a>
+
+</div>
+
+
+    <!-- About -->
+    <div class="section">
+        <h2>About Me</h2>
+        <p class="about">
+            Banker in Corporate Banking, covering multinational and large-cap clients in LATAM,
+            leading origination and structuring of syndicated and bilateral financings, real estate,
+            project finance, and working-capital solutions in cross-border environments.
+
+            Trusted C-suite partner integrating treasury, FX, trade finance, and cash-management solutions.
+            Dual Mexico–U.S. national with a strong interest in continuing a cross-border career path and
+            transitioning into the U.S. market.
+        </p>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">Corporate Banking Coverage</div>
+            <div class="skill">Credit Structuring & Analysis</div>
+            <div class="skill">Treasury & Liquidity Advisory</div>
+            <div class="skill">Cross-Border Execution</div>
+            <div class="skill">Financial Modeling</div>
+            <div class="skill">Portfolio Management</div>
+            <div class="skill">Risk Analysis</div>
+            <div class="skill">Equity Research</div>
+            <div class="skill">Macroeconomic Analysis</div>
+            <div class="skill">Quantitative Methods</div>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 Victor Torres | All Rights Reserved
+    </footer>
+
+</div>
+</div>
+
+</body>
+</html>
